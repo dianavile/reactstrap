@@ -24,18 +24,18 @@ class App extends React.Component {
         return (
             <div>
                 <Container fluid>
-               {/* Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop */}
                     <Row>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                    <Col xs={6} md={4}>
-                    xs=6 md=4
-                    </Col>
-                </Row>
+                        <Col xs={6} md={4}> 4</Col>
+                        <Col xs={2} md={2}> 2</Col>
+                        <Col xs={3} md={3}> 3</Col>
+                        <Col xs={3} md={3}> 3</Col>
+                    </Row>
+                    <Row>
+                        <Col xs={2} md={2}> 2</Col>
+                        <Col xs={6} md={4}> 4</Col>
+                        <Col xs={3} md={3}> 3</Col>
+                        <Col xs={3} md={3}> 3</Col>
+                    </Row>
                 </Container>   
             </div>
         );
