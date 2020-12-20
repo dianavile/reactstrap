@@ -1,5 +1,5 @@
 # reactstrap
-React Layout cdwith create-react-app and reactstrap
+React Layout with create-react-app and reactstrap
 
 # Installation
 - React project created with: 
